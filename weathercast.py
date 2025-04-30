@@ -15,7 +15,7 @@ def sorgula_hava_durumu():
 
 # Ana pencere ayarları
 window = tk.Tk()
-window.title("Weather Coast")
+window.title("Weathercast")
 window.geometry("600x400")
 window.configure(bg="#f0f0f0")
 
@@ -31,7 +31,7 @@ main_frame.pack(fill=tk.BOTH, expand=True)
 
 # Başlık
 hosgeldinizLabel = ttk.Label(main_frame, 
-                            text="Weather Cast Uygulamasına Hoşgeldiniz",
+                            text="Weathercast Uygulamasına Hoşgeldiniz",
                             font=('Helvetica', 16, 'bold'))
 hosgeldinizLabel.pack(pady=20)
 

@@ -1,4 +1,4 @@
-# Weather Coast Application
+# Weathercast Application
 
 This project is a desktop application that allows users to easily check weather information for their desired cities.
 
@@ -13,7 +13,7 @@ This project is a desktop application that allows users to easily check weather 
 
 1. Clone the project:
 ```bash
-git clone https://github.com/username/weathercoast.git
+git clone https://github.com/username/weathercast.git
 ```
 
 2. Install required Python packages:
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 3. Run the application:
 ```bash
-python weathercoastgui.py
+python weathercast.py
 ```
 
 ## Usage
