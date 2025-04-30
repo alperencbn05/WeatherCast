@@ -45,11 +45,31 @@ sehirGiriniz.pack(side=tk.LEFT, padx=5)
 entry = ttk.Entry(input_frame, width=30)
 entry.pack(side=tk.LEFT, padx=5)
 
+entry.focus()  # Giriş alanına odaklan
+
+# Butonlar için ortalanmış yatay frame
+button_frame = ttk.Frame(main_frame)
+button_frame.pack(pady=10)
+
+# Ortalamak için boşluk ekle (expand + anchor ile)
+button_frame.pack(anchor='center')
+
 # Sorgula butonu
-sorgula = ttk.Button(main_frame, 
+sorgula = ttk.Button(button_frame, 
                      text="Sorgula",
                      command=sorgula_hava_durumu)
-sorgula.pack(pady=10)
+sorgula.pack(side=tk.LEFT, padx=10)
+
+# Çıkış butonu
+cikis = ttk.Button(button_frame, 
+                   text="Çıkış",
+                   command=window.quit)
+cikis.pack(side=tk.LEFT, padx=10)
+
+
+
+
+
 
 # Sonuç etiketi
 sonuc_etiketi = ttk.Label(main_frame, 
