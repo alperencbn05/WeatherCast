@@ -13,7 +13,7 @@ This project is a desktop application that allows users to easily check weather 
 
 1. Clone the project:
 ```bash
-git clone https://github.com/alperencoban/weathercast.git
+git clone https://github.com/alperencbn05/weathercast.git
 ```
 
 2. Install required Python packages:
